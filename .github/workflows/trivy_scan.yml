@@ -5,7 +5,7 @@ on:
     branches:
     - release/*
   schedule:
-  - cron: "*/1 */4 * * *"       
+  - cron: "* * * * *"       
 
 jobs:
   build:
